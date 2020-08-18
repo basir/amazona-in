@@ -1,7 +1,9 @@
 # Amazona: An Ecommerce Website Like Amazon
+
 This project build an ecommerce website like amazon by MERN stack.
 
 ## Run Locally
+
 ```shell
 $ git clone https://github.com/basir/amazona
 # frontend
@@ -12,6 +14,7 @@ $ npm install && npm start
 ```
 
 ## Table of content
+
 1. Introduction to this course
    1. what you will build
    2. what you will learn
@@ -42,3 +45,8 @@ $ npm install && npm start
    4. copy index.html content to App.js
    5. copy style.css content to index.css
    6. replace class with className
+6. Use React Router Dom
+   1. npm install react-router-dom
+   2. define Route
+   3. Create Home Screen
+   4. Create Product Screen
