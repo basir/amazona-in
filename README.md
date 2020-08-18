@@ -50,3 +50,10 @@ $ npm install && npm start
    2. define Route
    3. Create Home Screen
    4. Create Product Screen
+7. List Products on Home Screen
+   1. create data.js
+   2. put 6 products there
+   3. copy product images to images folder
+   4. map data.products to jsx in HomeScreen
+   5. create Product.js component
+   6. update style to products

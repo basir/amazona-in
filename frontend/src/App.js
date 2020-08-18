@@ -6,12 +6,12 @@ import ProductScreen from './screens/ProductScreen';
 function App() {
   return (
     <BrowserRouter>
-      <div class="grid-container">
+      <div className="grid-container">
         <header>
-          <div class="brand">
+          <div className="brand">
             <Link to="/">amazona</Link>
           </div>
-          <div class="header-links">
+          <div className="header-links">
             <Link to="/cart">Cart</Link>
             <Link to="/signin">Sign In</Link>
           </div>
