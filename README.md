@@ -1,8 +1,15 @@
 # Amazona: An Ecommerce Website Like Amazon
-Description
+This project build an ecommerce website like amazon by MERN stack.
 
 ## Run Locally
-Step 1
+```shell
+$ git clone https://github.com/basir/amazona
+# frontend
+$ cd amazona/frontend
+$ npm install && npm start
+# backend (new terminal in amazona folder)
+$ npm install && npm start
+```
 
 ## Table of content
 1. Introduction to this course
@@ -28,3 +35,10 @@ Step 1
    4. Create repo on github
    5. connect local repo to github repo
    6. push changes to github
+5. Create React App
+   1. npx create-react-app frontend
+   2. npm start
+   3. Remove unused files
+   4. copy index.html content to App.js
+   5. copy style.css content to index.css
+   6. replace class with className
