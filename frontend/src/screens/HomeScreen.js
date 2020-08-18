@@ -1,13 +1,16 @@
 import React from 'react';
+import data from '../data';
+import Product from '../components/Product';
 
 export default function HomeScreen() {
   return (
     <div>
-      <ul>
-        <li>Product 1</li>
-        <li>Product 2</li>
-        <li>Product 3</li>
-        <li>Product 4</li>
+      <ul className="products">
+        {data.products.map((product) => (
+          <li key={product._id}>
+            <Product product={product}></Product>
+          </li>
+        ))}
       </ul>
     </div>
   );
