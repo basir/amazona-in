@@ -92,3 +92,11 @@ footer {
   font-size: 2rem;
   font-weight: bold;
 }
+/* Rating */
+.rating span {
+  color: #ffc000;
+  margin: 0.1rem;
+}
+.rating span:last-child {
+  color: #000000;
+}
