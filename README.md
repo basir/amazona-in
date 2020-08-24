@@ -57,3 +57,14 @@ $ npm install && npm start
    4. map data.products to jsx in HomeScreen
    5. create Product.js component
    6. update style to products
+8. Create Rating Component
+   1. create components/Rating.js
+   2. link to fontawesome.css in index.html
+   3. create div.rating
+   4. define Rating object with render()
+   5. if !props.value return empty div
+   6. else use fa fa-star, fa-star-half-o and fa-star-o
+   7. last span for props.text || ''
+   8. style div.rating, span and last span
+   9. Edit Product component
+   10. Use Rating component
