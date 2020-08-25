@@ -14,7 +14,7 @@ function App() {
               onClick={() => setSidebarIsOpen(true)}
               className="open-sidebar"
             >
-              <i class="fa fa-bars"></i>
+              <i className="fa fa-bars"></i>
             </button>
             <Link to="/">amazona</Link>
           </div>

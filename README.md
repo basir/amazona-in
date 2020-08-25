@@ -71,3 +71,9 @@ $ npm install && npm start
 9. Add Sidebar Menu
    1. create aside element
    2. put product categories
+10. Create Product Details Screen
+    1. Create 3 columns for product
+    2. column 1 for image
+    3. column 2 product information
+    4. column 3 from add to cart button
+    5. Add style

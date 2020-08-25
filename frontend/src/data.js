@@ -10,6 +10,7 @@ export default {
       countInStock: 20,
       rating: 4.5,
       numReviews: 15,
+      description: 'This is a great product.',
     },
     {
       _id: '2',
@@ -18,9 +19,10 @@ export default {
       image: '/images/product-2.jpg',
       price: 79,
       brand: 'Lacoste',
-      countInStock: 20,
+      countInStock: 0,
       rating: 4.0,
       numReviews: 15,
+      description: 'This is a great product.',
     },
     {
       _id: '3',
@@ -32,6 +34,7 @@ export default {
       countInStock: 20,
       rating: 4.9,
       numReviews: 15,
+      description: 'This is a great product.',
     },
     {
       _id: '4',
@@ -43,6 +46,7 @@ export default {
       countInStock: 20,
       rating: 4.5,
       numReviews: 9,
+      description: 'This is a great product.',
     },
     {
       _id: '5',
@@ -54,6 +58,7 @@ export default {
       countInStock: 20,
       rating: 4.5,
       numReviews: 7,
+      description: 'This is a great product.',
     },
     {
       _id: '6',
@@ -65,6 +70,7 @@ export default {
       countInStock: 20,
       rating: 4.7,
       numReviews: 10,
+      description: 'This is a great product.',
     },
   ],
 };
