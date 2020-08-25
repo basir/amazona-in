@@ -100,3 +100,32 @@ footer {
 .rating span:last-child {
   color: #000000;
 }
+/* Aside */
+.open-sidebar {
+  font-size: 3rem;
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+aside {
+  position: fixed;
+  width: 30rem;
+  height: 100%;
+  transform: translateX(-30rem);
+  background-color: #efefef;
+  transition: all 0.5s;
+}
+aside.open {
+  transform: translateX(0);
+}
+aside ul {
+  padding: 0;
+  list-style-type: none;
+}
+aside li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}

@@ -68,3 +68,6 @@ $ npm install && npm start
    8. style div.rating, span and last span
    9. Edit Product component
    10. Use Rating component
+9. Add Sidebar Menu
+   1. create aside element
+   2. put product categories
